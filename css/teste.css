@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 700px;
+    border: 1px solid blueviolet;
+    justify-content: center;
+    align-content: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    border: 1px solid red;
+    width: 800px;
+    list-style: none;
+    background-color: #e8e8e9;
+}
+
+li {
+    background-color: #8cacea;
+    height: 100px;
+    width: 100px;
+    margin: 8px;
+    padding: 4px;
+
+}
+
+li:nth-child(1) {
+    order: 1; /*give it a value higher than 0*/
+    }
